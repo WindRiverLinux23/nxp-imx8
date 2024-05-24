@@ -63,8 +63,6 @@ The following BSP features are validated and supported.
 	+ SAI Audio:
 		+ WM8960 codec (MCIMX8QM-MEK & MCIMX8MP-EVK)
 		+ WM8524 codec (MCIMX8M-EVK)
-		+ XCVR codec (MCIMX8MP-EVK)
-		+ BT_SCO codec (MCIMX8MP-EVK)
 	+ HDMI: On-Chip HDMI controller
 	+ DCSS: Display controller subsystem
 	+ MIPI DSI Host Controller:
@@ -103,6 +101,8 @@ The following features are not supported and not validated:
 	x SPDIF
 	x PWM
 	x eLCDIF
+	x XCVR codec (MCIMX8MP-EVK)
+	x BT_SCO codec (MCIMX8MP-EVK)
 
 Note: GPU, NPU, VPU and XCVR all require proprietary packages or firmware
 to work. If you want to use them, please refer to README.proprietary
