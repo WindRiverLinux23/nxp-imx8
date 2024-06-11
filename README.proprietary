@@ -477,12 +477,12 @@ IMX_DEFAULT_BSP = "nxp"
 Add firmware for the XCVR module that comes with iMX8MP
 
 MACHINEOVERRIDES:prepend:nxp-imx8 = "mx8mp-nxp-bsp:"
-IMAGE_INSTALL:append = "firmware-imx-xcvr-imx8mp"
+IMAGE_INSTALL:append = " firmware-imx-xcvr-imx8mp"
 CUSTOMER_RECIPES:fsl-bsp-release += "firmware-imx"
 
 2.7 VPU firmware(MX8QM)
 -----------------------
 
-MACHINEOVERRIDES:prepend:nxp-imx8 = "mx8mp-nxp-bsp:"
-IMAGE_INSTALL:append = "firmware-imx-vpu-imx8"
+MACHINEOVERRIDES:prepend:nxp-imx8 = "mx8qm-nxp-bsp:"
+IMAGE_INSTALL:append = " firmware-imx-vpu-imx8"
 CUSTOMER_RECIPES:fsl-bsp-release += "firmware-imx"
