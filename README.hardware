@@ -70,7 +70,13 @@ The following BSP features are validated and supported.
 	+ MIPI CSI Host Controller:
 		+ OmniVision chipset OV5640 (MINISASTOCSI accessory card)
 	+ VPU: On-Chip video processing unit(MCIMX8M-EVK & MCIMX8MP-EVK)
-	+ ISP: ISP8000Nano
+	+ ISP: ISP8000Nano (MCIMX8MP-EVK)
+	+ GPU: Vivante GC7000 Lite
+        + NPU: Vivante VIP8000 NPU (MCIMX8MP-EVK)
+        + VPU: On-Chip video processing unit(MCIMX8QM-MEK & MCIMX8MQ-EVK)
+
+Note: GPU, NPU, VPU all require proprietary packages or firmware
+to work. If you want to use them, please refer to README.proprietary
 
   o Power Mgmt
 	+ CPU Freq
@@ -91,9 +97,6 @@ The following BSP features are validated and supported.
 
 The following features are not supported and not validated:
 
-	x GPU: Vivante GC7000 Lite
-	x NPU: Vivante VIP8000 NPU
-	x VPU: On-Chip video processing unit(MCIMX8QM-MEK)
 	x APBH-Bridge-DMA
 	x IEEE 1588
 	x eCSPI
@@ -103,9 +106,6 @@ The following features are not supported and not validated:
 	x eLCDIF
 	x XCVR codec (MCIMX8MP-EVK)
 	x BT_SCO codec (MCIMX8MP-EVK)
-
-Note: GPU, NPU, VPU and XCVR all require proprietary packages or firmware
-to work. If you want to use them, please refer to README.proprietary
 
 
 4. BSP Notes
